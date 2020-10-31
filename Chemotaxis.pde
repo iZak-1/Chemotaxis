@@ -7,7 +7,7 @@ int numLinesToShow = 50;
 void setup() {
   attraction=0;
   speed=5;
-  size((int)(0.95*window.innerWidth), (int)(0.95*window.innerHeight));
+  size(1000,1000); //size((int)(0.95*window.innerWidth), (int)(0.95*window.innerHeight));
   colony = new Bacteria[numBacteria];
   System.out.print(Math.sin(PI/2));
   stroke(255,255,255);
@@ -112,9 +112,6 @@ void keyPressed() {
   }
   if(keyCode==UP){
     speed+=1;
-  }
-  if(key==32) {
-    background(0,0,0);
   }
   if(keyCode==RIGHT) {
     attraction+=0.1;
