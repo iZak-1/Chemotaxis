@@ -8,7 +8,7 @@ void setup() {
   frameRate(100);
   size((int)(0.95*window.innerWidth), (int)(0.95*window.innerHeight));
   textAlign(CENTER, CENTER);
-  textSize(width/50);
+  textSize((width+height)/100);
   
   
   //set up variables
