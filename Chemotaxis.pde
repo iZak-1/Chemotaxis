@@ -6,7 +6,7 @@ int speed;
 int numLinesToShow;
 void setup() {
   frameRate(100);
-  size(1000,1000); //size((int)(0.95*window.innerWidth), (int)(0.95*window.innerHeight));
+  size((int)(0.95*window.innerWidth), (int)(0.95*window.innerHeight));
   textAlign(CENTER, CENTER);
   textSize(width/50);
   
