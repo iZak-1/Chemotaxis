@@ -35,7 +35,6 @@ void draw() {
   
   fill(255,255,255);
   noStroke();
-  text("Click to reset\nControls listed as [key]", width/2, height/15);
   text("[↑]/[↓]\nvelocity\n"+speed, width/5, 7*height/8);
   text("[←]/[→]\nattraction\n"+round(attraction*20)/20.0, 2*width/5, 7*height/8);
   text("[a]/[d]\nbacteria\n"+numBacteria, 3*width/5, 7*height/8);
