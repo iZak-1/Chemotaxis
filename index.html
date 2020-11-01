@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
+		<title>Chemotaxis</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Headline</h1>
+			<h1>Click and hold to go slowmmo. Spacebar to reset. The bateria will be attracted to the mouse. Keyboard controls are in [brackets] next to what they control.</h1>
 		</header>
 			<section id="content">
 				<canvas id="Chemotaxis" data-processing-sources="Chemotaxis.pde">
@@ -16,7 +16,7 @@
 		    </section>
 		Click and hold to go slowmmo. Spacebar to reset. The bateria will be attracted to the mouse. Keyboard controls are in [brackets] next to what they control.
 	    <footer>
-		    The attraction variable is completely independant of speed. The bacteria's movement will be a weighted avergae of where the bacteria "wants to go" (randomly) and where it has to go to get to your mouse. 1 means equal weighting, 0 means the bacteria don't even care about the mouse.
+		    Explanation of variables: The attraction variable is completely independant of speed. The bacteria's movement direction will be a weighted avergae of where the bacteria "wants to go" (randomly) and where it has to go to get to your mouse. 1 means equal weighting, 0 means the bacteria don't even care about the mouse. The speed is just how quickly it moves.
 	    </footer>
 	</body>
 </html>
@@ -28,4 +28,5 @@ v1.2.0: Better layout, and you can now add/remove bacteria and increase/decrease
 v1.2.1: It works, and also adapts to screen size.
 v1.2.2: better documentation
 v1.2.3: text size scales better.
+v1.2.4: Improved intructions slightly more, no longer has false information at the top.
 ->
